@@ -77,5 +77,6 @@ public class TestFile {
 			System.out.println("str1["+i+"]:"+str[i]);
 		}
 		
+		
 	}
 }

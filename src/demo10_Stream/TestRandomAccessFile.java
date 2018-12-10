@@ -25,6 +25,7 @@ public class TestRandomAccessFile {
 			stringBufferFileName.append(c);
 		}
 		
+		
 		stringBufferFileName.replace(0, 1, "");
 		File readFrom=new File(dir,stringBufferFileName.toString());
 		
