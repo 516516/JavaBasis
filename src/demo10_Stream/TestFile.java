@@ -23,8 +23,8 @@ public class TestFile {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String string_of_filedir="E:\\PROJECT\\eclipse\\java\\java_project\\repository\\src\\demo10_Stream";
-		String string_of_filedir1="E:\\PROJECT\\eclipse\\java\\java_project\\repository\\src\\demo10_Stream";
+		String string_of_filedir="E:\\Eclipse_workspace\\maven_project\\JavaBasis\\src\\demo10_Stream";
+		String string_of_filedir1="E:\\Eclipse_workspace\\maven_project\\JavaBasis\\src\\demo10_Stream";
 		File fdir1=new File(string_of_filedir);
 		File fdir2=new File(string_of_filedir1);
 		
@@ -58,11 +58,11 @@ public class TestFile {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		System.out.println("输入完毕："+file_name);
+		System.out.println("输入完毕："+file_name+"  "+"长度："+file_name.length());
 		File file=new File(fdir1,file_name);
 		
 		if(file.isFile()) {
+			System.out.println("视为文件处理");
 			System.out.println(file.getName());
 			System.out.println(file.getPath());
 			System.out.println(file.length());
